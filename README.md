@@ -1,21 +1,17 @@
 # Dicography
 
-**TODO: Add description**
+An small elixir app that converts your .txt full of albums in a fancy Trello board sort with the albums classified in lists sorted
+by decade images and everything!
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `dicography` to your list of dependencies in `mix.exs`:
+### After cloning this repo you need to:
+-Add a dev.secret.exs file inside config folder (I leaved an example there)
 
-```elixir
-def deps do
-  [
-    {:dicography, "~> 0.1.0"}
-  ]
-end
-```
+-run 'mix deps.get' 
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/dicography>.
+-run 'iex -S mix'
+
+-run 'Discography.main("THE NAME OF THE BOARD")'
+
 
